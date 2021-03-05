@@ -1,14 +1,18 @@
+/*Margin and Padding*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Body Background*/
 body {
     background-color: #d9dcd6;
 }
 
-.title {
+/*Header*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -20,7 +24,7 @@ body {
     font-size: 48px;
 }
 
-.seo {
+#seo {
     color: #d9dcd6;
 }
 
@@ -32,11 +36,8 @@ nav {
     font-size: 20px;
 }
 
-ul {
+ul li {
     list-style-type: none;
-}
-
-li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -46,6 +47,7 @@ a {
     text-decoration: none;
 }
 
+/*Body Content*/
 p {
     font-size: 16px;
 }
@@ -84,6 +86,7 @@ h3 {
     text-align: center;
 }
 
+/*Aside benefits*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -106,6 +109,7 @@ h3 {
     max-width: 150px;
 }
 
+/*Services description*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -124,6 +128,7 @@ h3 {
     font-size: 36px;
 }
 
+/*Footer*/
 .footer {
     padding: 30px;
     clear: both;
